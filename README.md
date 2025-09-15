@@ -19,11 +19,11 @@ NutriClass is a machine learning project that classifies foods based on nutritio
 
 ## Project Structure
 ```
-├── app.py                # Streamlit app (main file)
-├── NutriClass_Food_Classification.ipynb  # Analysis and ML notebook
-├── README.md             # Project documentation
+├── app.py                                                # Streamlit app (main file)
+├── NutriClass_Food_Classification.ipynb                  # Analysis and ML notebook
+├── README.md                                             # Project documentation
 ├── data
-│  ├─ synthetic_food_dataset_imbalanced.csv            # Food nutritional data
+│  ├─ synthetic_food_dataset_imbalanced.csv               # Food nutritional data
 ```
 
 ## Installation
