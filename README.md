@@ -14,15 +14,16 @@ NutriClass is a machine learning project that classifies foods based on nutritio
 
 
 ## Dataset
-- **File:** `sample.csv`
+- **File:** `synthetic_food_dataset_imbalanced.csv`
 - **Columns:** Calories, Protein, Fat, Carbs, Sugar, Fiber, Sodium, Cholesterol, Glycemic_Index, Water_Content, Serving_Size, Meal_Type, Preparation_Method, Is_Vegan, Is_Gluten_Free, Food_Name
 
 ## Project Structure
 ```
 ├── app.py                # Streamlit app (main file)
 ├── NutriClass_Food_Classification.ipynb  # Analysis and ML notebook
-├── sample.csv            # Food nutritional data
 ├── README.md             # Project documentation
+├── data
+│  ├─ synthetic_food_dataset_imbalanced.csv            # Food nutritional data
 ```
 
 ## Installation
@@ -30,9 +31,7 @@ NutriClass is a machine learning project that classifies foods based on nutritio
 1. Clone the repository and navigate to the folder
 2. Install requirements:
    ```sh
-   pip install -r requirements.txt
-   # or manually:
-   pip install streamlit pandas scikit-learn matplotlib seaborn plotly streamlit-authenticator xgboost
+   pip install streamlit pandas scikit-learn matplotlib seaborn plotly xgboost
    ```
 3. Run the Streamlit app:
    ```sh
@@ -41,12 +40,11 @@ NutriClass is a machine learning project that classifies foods based on nutritio
 
 ## Usage
 
-- **Notebook (`.ipynb`)**: Run all steps for data analysis, preprocessing, modeling, and evaluation.
+- **Notebook (`NutriClass_Food_Classification.ipynb`)**: Run all steps for data analysis, preprocessing, modeling, and evaluation.
 - **App (`app.py`)**: 
   - Set nutritional goals in sidebar.
   - View food recommendations.
   - See personalized suggestions based on your selections.
-  - Export your meal plan as CSV.
 
 ## ML Approach
 
